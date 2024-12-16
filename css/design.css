@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* ....Add hedar tage er modde imh add.. */
+.hero{
+    /* max-width: 80%; */
+    background-image: url(../image/developer.png), url(../image/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    
+}
+
+/* Nav bar style  */
+header {
+  /* font-family: "Open Sans", sans-serif; */
+}
+span {
+  color: #fd6e0a;
+}
+nav {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.nav-titel {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 51px;
+}
+nav li a {
+  font-size: 20px;
+  color: #474747;
+}
+/* button style */
+.btn {
+  background-color: #fd6e0a;
+  font-weight: 700;
+  color: white;
+  padding: 18px 35px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+  
+
+
+/* .....Banner Section....Design */
+.banner-content{
+    max-width: 580px;
+}
+.banner-wlc{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-titel{
+    color: #181818;
+    font-size: 85px;
+    font-weight:bold;
+}
+.banner-description{
+    font-size: 18px;
+    color: #474747;
+    font-weight:100;
+}
+.mary-img{
+    width: 584px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+}
